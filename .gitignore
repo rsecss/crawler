@@ -1,0 +1,16 @@
+#Local scarpe data
+*.txt
+
+#vscode
+.vscode/*
+!.vscode/setting.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+#python
+.venv/*
+
+#My Configurations:
+!.gitignore
