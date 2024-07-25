@@ -2,13 +2,14 @@
 
 由于想要提高获取数据的能力，我最近花了几天学习了pyhon的基础语法，并且通过学习相关的爬虫基础操作(应该满足我的日常的爬虫需求)，然后经行一个爬虫想项目的练习，将记录我后面相关的爬虫项目记录
 
-## 爬虫练习
+## 爬虫项目实践
 
 [github上面发现的收集各种免费的Python爬虫项目](https://github.com/ityard/python-fxxk-spider)
 
-### 我的练习
+### 我的项目爬虫实践
 
 1. [豆瓣抓取电影排名TOP25](scrape_douban.py)
+2. [「XXXX」小说完整抓取](scrape_novel.py)
 
 ## 爬虫注意事项
 
@@ -59,8 +60,12 @@ Robots.txt 文件中的内容可以包含多条规则，每条规则通常有两
    - 遵守 Robots.txt 规则：虽然 Robots.txt 提供了指导性的规则，但并不是所有的爬虫都会严格遵守。有些爬虫可能会忽略 Robots.txt 文件的指示。
    - 不一定存在：并非所有的网站都有 Robots.txt 文件，或者该文件可能只包含少量信息。
 
+---
+
 ## python的版本以及安装的库
 
 1. python3.11及以上
 2. requests: 用于发送HTTP请求
+   `pip install requests`
 3. beautifulsoup4(bs4): 用于解析HTML和XML文档
+   `pip install bs4`
