@@ -1,5 +1,6 @@
 #Local scarpe data
 *.txt
+test.py
 
 #vscode
 .vscode/*
